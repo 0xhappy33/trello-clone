@@ -9,12 +9,16 @@ DATA
 
 const lists = [
   {
-    title: 'My List',
-    tasks: ['Do your homework', 'Go to school', 'Eat dinner', 'Go to the gym', 'Write in journal']
+    title: 'To do list',
+    tasks: []
   },
   {
-    title: 'Your List',
-    tasks: ['Go shopping', 'Go to soccer game']
+    title: 'Doing',
+    tasks: []
+  },
+  {
+    title: 'Done',
+    tasks: []
   }
 ];
 
