@@ -103,13 +103,9 @@ const createList = function(list) {
   const $listDiv = $('<div>').addClass('list');
   const $headerDiv = $('<div>').addClass('list-header');
   const $h2 = $('<h2>').text(list.title);
-  const $delBtn = $('<button>').addClass('btn del-list-btn');
-  const $delI = $('<i>').addClass('fa fa-trash');
   const $list = $('<ul>');
 
-  $delBtn.append($delI);
   $headerDiv.append($h2);
-  $headerDiv.append($delBtn);
   $listDiv.append($headerDiv);
 
   for (const item of list.tasks) {
